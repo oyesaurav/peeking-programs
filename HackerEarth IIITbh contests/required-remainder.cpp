@@ -18,7 +18,7 @@ int main()
         int rem = n % x;
         if(rem == y) k = n ;
         else if(rem > y) k = n - rem + y;
-        else k = n - rem - x + y ;
+        else k = n - rem - x + y;
 
         cout<<"Required Reminder is : "<<k<<"\n";
     }
